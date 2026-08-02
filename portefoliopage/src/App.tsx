@@ -1,6 +1,9 @@
 import './App.css'
-import Summary from './Summary'
-import DataCapabilities from './DataCapabilities'
+import Summary from './pages/Summary'
+import DataCapabilities from './pages/DataCapabilities'
+import Education from './pages/Education'
+import Projects from './pages/Projects'
+import WorkExperience from './pages/WorkExperience'
 
 function App() {
 
@@ -12,6 +15,13 @@ function App() {
       <Summary />
       <br />
       <DataCapabilities />
+      <br />
+      <Education />
+      <br />
+      <Projects />
+      <br /> <br />
+      <WorkExperience />
+
 
       
 

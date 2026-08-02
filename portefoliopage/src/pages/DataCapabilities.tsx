@@ -8,8 +8,10 @@ function dataCapabilities(){
             <div>Mysql, Java, Python</div>
            
             <h3>Sikkerhetsverktøy:</h3>
-            <div>VMware Workstation Pro / VMware Workstation Player 17, OWASP ZAP,
-            Splunk, Wireshark, Volatility3, Yara.</div>
+            <div>
+                VMware Workstation Pro / VMware Workstation Player 17, OWASP ZAP,
+                Splunk, Wireshark, Volatility3, Yara.
+            </div>
 
             <h3>Frontendverktøy:</h3>
             <div>JavaScript, TypeScript, React.</div>
