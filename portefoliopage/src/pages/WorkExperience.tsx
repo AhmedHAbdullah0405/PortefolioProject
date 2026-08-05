@@ -1,21 +1,18 @@
+import {downloadPDF} from '../hooks/downloadPDF';
+
+interface PdfFile {
+    name: string;
+    path: string;
+}
+
+const files: PdfFile[] = [
+    {name: "Studentasssitent sluttattest", path: "/letters/Ahmed Abdullah_StudentAssistent_Sluttattest.pdf"},
+    {name: "Telefonselger sluttattest", path: "/letters/Sluttattest Ahmed Hazhar Abdullah.docx"},
+    {name: "Distributør sluttattest", path: "/letters/Sluttattest Ahmed, Helthjem.pdf"}
+]
+
 function workExperience() {
-
-    const pdfContainer = "portefoliopage\public\letters\Ahmed Abdullah_StudentAssistent_Sluttattest.pdf"
-
-    const downloadPDF = () => {
-        const link = document.createElement("a");
-        link.href = pdfContainer;
-
-        link.setAttribute("download", pdfContainer)
-
-        document.body.appendChild(link)
-
-        link.click();
-
-        document.body.removeChild(link);
-    }
-
-
+    const download = downloadPDF();
 
     return (
         <>
@@ -28,7 +25,6 @@ function workExperience() {
             <h3>Studentassistent</h3> Høyskolen Kristiania &ensp; 20.01/25 - 30.06/25 <br />
             Veileder for studenter i
             emnet PG2202 - Unity Utvikling
-            <button className="download" onClick={downloadPDF}>Click here to download this jobs referal</button>
 
             <br />
             <h3>Distributør</h3> Helthjem &ensp; 19.06/23 - 25.09/23 <br />
@@ -41,9 +37,17 @@ function workExperience() {
             Salg av strøm for
             Agva Kraft via telefonen
 
+            <br /><br />
 
+            <div>
+                {files.map((file, index) => (
+                    <button key={index} onClick={() => download(file.path, file.name)}>
+                        Download {file.name}
+                    </button>
+                ))}
+            </div>
 
-
+            
 
         </>
     )

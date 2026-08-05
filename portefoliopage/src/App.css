@@ -2,3 +2,18 @@ body {
     background-color: black;
     color: green;
 }
+
+#pageTitle{
+    text-align: center;
+    
+}
+
+.card{
+    border-style: solid;
+    margin-right: auto;
+    width: 400px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+
+}

@@ -4,14 +4,16 @@ import DataCapabilities from './pages/DataCapabilities'
 import Education from './pages/Education'
 import Projects from './pages/Projects'
 import WorkExperience from './pages/WorkExperience'
+import ContactInfo from './pages/ContactInfo'
 
 function App() {
 
   return (
 
     <>
-      <h1>Ahmed's Portefolio Page</h1>
+      <h1 id="pageTitle">Ahmed's Portefolio Page</h1>
 
+    
       <Summary />
       <br />
       <DataCapabilities />
@@ -21,6 +23,8 @@ function App() {
       <Projects />
       <br /> <br />
       <WorkExperience />
+      <br />
+      <ContactInfo />
 
 
       
