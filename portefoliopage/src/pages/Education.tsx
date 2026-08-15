@@ -1,4 +1,5 @@
 import { downloadPDF } from "../hooks/downloadPDF"
+import educationReference from "../letters/Vitnemål Bachelor Cybersikkerhet HK.pdf"
 
 function education(){
     const downloadEducationPDF = downloadPDF();
@@ -9,7 +10,7 @@ function education(){
             <h3>Bachelor i Cybersikkerhet			Høyskolen Kristiania	08.22 - 06.25</h3>
 
             <button onClick={() => 
-                downloadEducationPDF("Vitnemål Bachelor Cybersikkerhet HK.pdf", "Vitnemål Bachelor Cybersikkerhet HK.pdf")}>
+                downloadEducationPDF(educationReference, "Vitnemål Bachelor Cybersikkerhet HK.pdf")}>
                 Download my cybersecurity diploma
             </button>
 
