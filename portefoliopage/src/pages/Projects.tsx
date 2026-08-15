@@ -12,8 +12,9 @@ function projects(){
     return(
         <>
             <h2>Prosjekter/Selvstudie</h2>
-            <p>
-                Pentest mot eksamens VM 30.03/26 - 30.05/26 <br />
+            
+            <h3>Pentest mot eksamens VM 30.03/26 - 30.05/26</h3>
+            <p>    
                 Utførte penetrasjonstest mot eksamen
                 VM “Eksamen_2023” for å demonstrere
                 ferdigheter gjennom bruk av verktøy som
@@ -26,8 +27,8 @@ function projects(){
             <button onClick={navigateToPentestReport}>Link til pentest rapporten i linkedin</button>
             
           
-            <p>
-                GameStop Java prosjekt 16.03/26 - 27.03/26 <br />
+            <h3>GameStop Java prosjekt 16.03/26 - 27.03/26</h3> 
+            <p>   
                 Bygget et terminal-basert Java prosjekt som
                 tar inspirasjon fra GameStop. Prosjektet inneholder
                 en meny, der brukeren kan utføre CRUD operasjoner

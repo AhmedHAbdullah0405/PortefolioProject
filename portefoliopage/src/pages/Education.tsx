@@ -10,7 +10,6 @@ function education(){
 
             <button onClick={() => 
                 downloadEducationPDF("Vitnemål Bachelor Cybersikkerhet HK.pdf", "Vitnemål Bachelor Cybersikkerhet HK.pdf")}>
-                
                 Download my cybersecurity diploma
             </button>
 
