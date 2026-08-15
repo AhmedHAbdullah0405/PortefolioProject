@@ -6,9 +6,9 @@ interface PdfFile {
 }
 
 const files: PdfFile[] = [
-    {name: "Studentasssitent sluttattest", path: "Ahmed Abdullah_StudentAssistent_Sluttattest.pdf"},
-    {name: "Distributør sluttattest", path: "Sluttattest Ahmed, Helthjem.pdf"},
-    {name: "Telefonselger sluttattest", path: "Sluttattest Ahmed Hazhar Abdullah.docx"},
+    {name: "Studentasssitent sluttattest", path: "/letters/Ahmed Abdullah_StudentAssistent_Sluttattest.pdf"},
+    {name: "Distributør sluttattest", path: "/letters/Sluttattest Ahmed, Helthjem.pdf"},
+    {name: "Telefonselger sluttattest", path: "/letters/Sluttattest Ahmed Hazhar Abdullah.docx"},
     
 ]
 
