@@ -45,7 +45,7 @@ function workExperience() {
             Salg av strøm for
             Agva Kraft via telefonen
             <br />
-            <button onClick={() => download(files[2].name, files[2].path)}>Download {files[2].name}</button>
+            <button onClick={() => download(files[2].name, files[2].path)}>Download TelefonSelger sluttattest</button>
 
         </>
     )
