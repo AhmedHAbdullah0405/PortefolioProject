@@ -1,4 +1,7 @@
 import {downloadPDF} from '../hooks/downloadPDF';
+import referenceOne from "../letters/Ahmed Abdullah_StudentAssistent_Sluttattest.pdf";
+import referenceTwo from "../letters/Sluttattest Ahmed, Helthjem.pdf";
+import referenceThree from "../letters/Sluttattest Ahmed Hazhar Abdullah.docx";
 
 interface PdfFile {
     name: string;
@@ -6,9 +9,9 @@ interface PdfFile {
 }
 
 const files: PdfFile[] = [
-    {name: "Studentasssitent sluttattest", path: "/letters/Ahmed Abdullah_StudentAssistent_Sluttattest.pdf"},
-    {name: "Distributør sluttattest", path: "/letters/Sluttattest Ahmed, Helthjem.pdf"},
-    {name: "Telefonselger sluttattest", path: "/letters/Sluttattest Ahmed Hazhar Abdullah.docx"},
+    {name: referenceOne, path: "/letters/Ahmed Abdullah_StudentAssistent_Sluttattest.pdf"},
+    {name: referenceTwo, path: "/letters/Sluttattest Ahmed, Helthjem.pdf"},
+    {name: referenceThree, path: "/letters/Sluttattest Ahmed Hazhar Abdullah.docx"},
     
 ]
 
@@ -27,7 +30,7 @@ function workExperience() {
             Veileder for studenter i
             emnet PG2202 - Unity Utvikling
             <br />
-            <button onClick={() => download(files[0].name, files[0].path)}>Download {files[0].name}</button>
+            <button onClick={() => download(files[0].name, files[0].path)}>Download Studentassistent sluttattest</button>
             
             <br />
             <h3>Distributør</h3> Helthjem &ensp; 19.06/23 - 25.09/23 <br />
@@ -35,7 +38,7 @@ function workExperience() {
             og andre produkter
             i Tveita området
             <br />
-            <button onClick={() => download(files[1].name, files[1].path)}>Download {files[1].name}</button>
+            <button onClick={() => download(files[1].name, files[1].path)}>Download Distributør sluttattest</button>
 
             <br />
             <h3>Telefonselger</h3> Decision AS &ensp; 20.01/22 - 13.01/23 <br />
