@@ -1,5 +1,5 @@
 import { downloadPDF } from "../hooks/downloadPDF"
-import educationReference from "../letters/Vitnemål Bachelor Cybersikkerhet HK.pdf"
+import educationReference from "../letters/Vitnemål Bachelor Cybersikkerhet HK(censored).pdf"
 
 function education(){
     const downloadEducationPDF = downloadPDF();
