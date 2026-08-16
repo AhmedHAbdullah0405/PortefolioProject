@@ -4,8 +4,15 @@ function dataCapabilities(){
         <>
             <h2>Datakunnskap</h2>
             
-            <h3>Backendverktøy:</h3>
-            <div>Mysql, Java, Python</div>
+            <div id="backend">
+                <h3 className="backendTitle">Backendverktøy:</h3>
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" /> 
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original-wordmark.svg" />
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg" />
+
+
+            </div>
+            
            
             <h3>Sikkerhetsverktøy:</h3>
             <div>

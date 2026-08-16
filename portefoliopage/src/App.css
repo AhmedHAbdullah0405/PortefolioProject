@@ -16,3 +16,20 @@ body {
     padding-left: 25px;
     padding-top: 10px;
 }
+
+#summary{
+    font-size: larger;
+    border-style: solid;
+    padding: 20px;
+}
+
+#backend{
+    border-style: solid;
+    padding: 20px;
+    width: 150px;
+}
+
+.backendTitle{
+    position: relative;
+    bottom: 30px;
+}
