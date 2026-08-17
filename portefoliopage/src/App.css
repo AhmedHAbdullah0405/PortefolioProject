@@ -25,11 +25,63 @@ body {
 
 #backend{
     border-style: solid;
+    display: flex;
     padding: 20px;
-    width: 150px;
+    width: 97%;
+    height: 250px;
 }
 
-.backendTitle{
+#backendTitle{
     position: relative;
     bottom: 30px;
 }
+
+.backend_img{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    height: 90%;
+}
+
+#security{
+    border-style: solid;
+    display: flex;
+    padding: 20px;
+    width: 97%;
+    height: 250px;
+}
+
+#securityTitle{
+    position: relative;
+    bottom: 30px;
+}
+
+.security_img{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    right: 7%;
+}
+
+#frontend{
+    border-style: solid;
+    display: flex;
+    padding: 20px;
+    width: 97%;
+    height: 250px;
+}
+
+#frontEndTitle{
+    position: relative;
+    bottom: 30px;
+}
+
+.frontend_img{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    height: 90%;
+}
+
