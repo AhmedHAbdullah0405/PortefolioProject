@@ -154,5 +154,20 @@ body {
     bottom: 20%;
 }
 
+#education{
+    border-style: solid;
+    padding: 10px;
+}
+
+#projects{
+    border-style: solid;
+    padding: 10px ;
+}
+
+#workExperience{
+    border-style: solid;
+    padding: 10px;
+}
+
 
 
