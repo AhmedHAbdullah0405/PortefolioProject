@@ -11,6 +11,8 @@ function App() {
   return (
 
     <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+
       <h1 id="pageTitle">Ahmed's Portefolio Page</h1>
 
     
