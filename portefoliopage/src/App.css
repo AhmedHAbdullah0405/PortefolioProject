@@ -28,7 +28,7 @@ body {
     display: flex;
     padding: 20px;
     width: 97%;
-    height: 250px;
+    height: 200px;
 }
 
 #backendTitle{
@@ -48,7 +48,8 @@ body {
     display: flex;
     padding: 20px;
     width: 97%;
-    height: 250px;
+    min-height: 200px;
+    height: auto;
 }
 
 #securityTitle{
@@ -58,11 +59,11 @@ body {
 
 .security_img{
     position: relative;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 40px;
-    right: 7%;
+    display: inline-block;
+    vertical-align: middle;
+    width: 85%;
+    height: 90%;
+    bottom: 3%;
 }
 
 #frontend{
@@ -70,10 +71,10 @@ body {
     display: flex;
     padding: 20px;
     width: 97%;
-    height: 250px;
+    height: 200px;
 }
 
-#frontEndTitle{
+#frontendTitle{
     position: relative;
     bottom: 30px;
 }
@@ -84,4 +85,74 @@ body {
     width: 85%;
     height: 90%;
 }
+
+#gamedev{
+    border-style: solid;
+    display: flex;
+    padding: 20px;
+    width: 97%;
+    height: 200px;
+}
+
+#gameDevTitle{
+    position: relative;
+    bottom: 30px;
+}
+
+.gamedev_img{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: 90%;
+    left: 5%;
+    
+}
+
+#IoT{
+    border-style: solid;
+    display: flex;
+    padding: 20px;
+    width: 97%;
+    height: 200px;
+}
+
+#IoTTitle{
+    position: relative;
+    bottom: 30px;
+}
+
+.IoT_img{
+    position: relative;
+    display: flex;
+    width: 60%;
+    height: 90%;
+    left: 35%;
+}
+
+#UI{
+    border-style: solid;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px;
+    width: 97%;
+    height: 200px;
+}
+
+#UITitle{
+    position: relative;
+    bottom: 30px;
+}
+
+.UI_img{
+    position: relative;
+    justify-content: space-evenly;
+    display: flex;
+    width: 85%;
+    height: 90%;
+    left: 10%;
+    bottom: 20%;
+}
+
+
 
