@@ -66,6 +66,10 @@ body {
     bottom: 3%;
 }
 
+.security_img img{
+    margin: 10px;
+}
+
 #frontend{
     border-style: solid;
     display: flex;
@@ -132,11 +136,12 @@ body {
 
 #UI{
     border-style: solid;
-    display: inline-block;
+    display: flex;
     vertical-align: middle;
     padding: 20px;
     width: 97%;
     height: 200px;
+    height: auto;
 }
 
 #UITitle{
@@ -146,12 +151,17 @@ body {
 
 .UI_img{
     position: relative;
-    justify-content: space-evenly;
-    display: flex;
+    display: inline-block;
+    vertical-align: middle;
     width: 85%;
     height: 90%;
-    left: 10%;
+    left: 5%;
     bottom: 20%;
+    padding-left: 10%;
+}
+
+.UI_img img{
+    margin: 20px;
 }
 
 #education{

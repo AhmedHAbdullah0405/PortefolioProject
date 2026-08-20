@@ -24,7 +24,7 @@ function dataCapabilities(){
                     <img src="./Wireshark_icon.svg" alt="wiresharkIcon" width={150}/>
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/splunk/splunk-original-wordmark.svg" alt="splunkIcon" width={175}/>
                     <img src="./zap.ico" alt="owaspZapIcon" width={150} />            
-                    <img src="./volatility3.png" alt="volatiltyIcon" width={350}/>
+                    <img src="./volatility3.png" alt="volatiltyIcon" width={250}/>
                     
                 </div>
             </div>
