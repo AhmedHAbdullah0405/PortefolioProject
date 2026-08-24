@@ -24,7 +24,7 @@ function projects(){
                         gjennom skjermbilder og tekst, der de er klassifisert
                         fra “Kritisk” til “Informasjonell”
                     </p>
-                    <button onClick={navigateToPentestReport}>Link til pentest rapporten i linkedin</button>
+                    <button className="buttonStyle" onClick={navigateToPentestReport}>Link til pentest rapporten i linkedin</button>
                     
             
                     <h3>GameStop Java prosjekt 16.03/26 - 27.03/26</h3> 
@@ -40,7 +40,7 @@ function projects(){
                         og sikkerhet
 
                     </p>
-                    <button onClick={navigateToGithub}>Link til source code for prosjektet i Github</button>
+                    <button className="buttonStyle" onClick={navigateToGithub}>Link til source code for prosjektet i Github</button>
 
                 </div>
         

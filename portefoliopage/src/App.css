@@ -179,5 +179,16 @@ body {
     padding: 10px;
 }
 
+.buttonStyle{
+    background-color: black;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.buttonStyle:hover{
+    background-color: green;
+    color: black;
+}
+
 
 

@@ -10,7 +10,7 @@ function education(){
             <div id="education">
                 <h3>Bachelor i Cybersikkerhet			Høyskolen Kristiania	08.22 - 06.25</h3>
 
-                <button onClick={() => 
+                <button className="buttonStyle" onClick={() => 
                     downloadEducationPDF(educationReference, "Vitnemål Bachelor Cybersikkerhet HK.pdf")}>
                     Download my cybersecurity diploma
                 </button>
