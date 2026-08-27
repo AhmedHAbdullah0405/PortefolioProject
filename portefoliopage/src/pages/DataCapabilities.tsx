@@ -2,7 +2,6 @@ function dataCapabilities(){
 
     return(
         <>
-            
             <h2>Datakunnskap</h2>
             
             <div id="backend">
@@ -68,16 +67,17 @@ function dataCapabilities(){
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" alt="css3Icon" width={150} />
                     <img src="./shadcnlogo.png" alt="shadcnIcon" width={125} />
                     <img src="./tableaulogo.png" alt="tableauIcon" width={250} />
-                    
                 </div>
             </div>
 
             <br />
             
             <div id="AI">
-                <h3>KI:</h3>
-                <div>ChatGPT og Claude for effektivisering av kode og debugging</div>
-
+                <h3 id="AITitle">KI:</h3>
+                <div className="AI_img">
+                    <img src="./Claude_AI_symbol.svg" alt="ClaudeIcon" width={150} />
+                    <img src="./chatgpt.svg" alt="ChatGPTIcon" width={150} />
+                </div>
             </div>
            
         </>

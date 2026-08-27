@@ -7,7 +7,6 @@ body {
 
 #pageTitle{
     text-align: center;
-    
 }
 
 .card{
@@ -111,8 +110,7 @@ body {
     justify-content: space-between;
     width: 60%;
     height: 90%;
-    left: 5%;
-    
+    left: 5%; 
 }
 
 #IoT{
@@ -166,6 +164,28 @@ body {
     margin: 20px;
 }
 
+#AI{
+    border-style: solid;
+    display: flex;
+    padding: 20px;
+    width: 97%;
+    height: 200px;
+}
+
+#AITitle{
+    position: relative;
+    bottom: 30px;
+}
+
+.AI_img{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: 90%;
+    left: 15%;
+}
+
 #education{
     border-style: solid;
     padding: 10px;
@@ -191,6 +211,3 @@ body {
     background-color: green;
     color: black;
 }
-
-
-
