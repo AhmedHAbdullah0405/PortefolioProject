@@ -1,7 +1,3 @@
-interface navigateButtonsProps{
-    url: string;
-}
-
 export const projects = () => {
     const handleNavigation = (url: string) => {
         window.open(url, '_blank')
