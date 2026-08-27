@@ -1,13 +1,12 @@
-function projects(){
+interface navigateButtonsProps{
+    url: string;
+}
 
-    function navigateToGithub() {
-        window.open("https://github.com/AhmedHAbdullah0405/JavaMySQLProject", '_blank')
+export const projects = () => {
+    const handleNavigation = (url: string) => {
+        window.open(url, '_blank')
+        window.open(url, '_blank')
     }
-
-    function navigateToPentestReport() {
-        window.open("https://www.linkedin.com/in/ahmed-abdullah-a2b4b0278/details/projects/", '_blank')
-    }
-
 
     return(
         <>
@@ -24,7 +23,7 @@ function projects(){
                         gjennom skjermbilder og tekst, der de er klassifisert
                         fra “Kritisk” til “Informasjonell”
                     </p>
-                    <button className="buttonStyle" onClick={navigateToPentestReport}>Link til pentest rapporten i linkedin</button>
+                    <button className="buttonStyle" onClick={() => handleNavigation("https://www.linkedin.com/in/ahmed-abdullah-a2b4b0278/details/projects/")}>Link til pentest rapporten i linkedin</button>
                     
             
                     <h3>GameStop Java prosjekt 16.03/26 - 27.03/26</h3> 
@@ -40,12 +39,13 @@ function projects(){
                         og sikkerhet
 
                     </p>
-                    <button className="buttonStyle" onClick={navigateToGithub}>Link til source code for prosjektet i Github</button>
+                    <button className="buttonStyle" onClick={() => handleNavigation("https://github.com/AhmedHAbdullah0405/JavaMySQLProject")}>Link til source code for prosjektet i Github</button>
 
                 </div>
         
         </>
     )
-}
+
+} 
 
 export default projects
