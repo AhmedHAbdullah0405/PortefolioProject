@@ -2,7 +2,7 @@ function contactInfo(){
 
     return(
         <>
-            <h1>Contact Info</h1>
+            <h1 id="cardTitle">Contact Info</h1>
             <div className="card">
                 <img src="./images/Oppdatert bilde av Ahmed.jpg" alt="profilePicture" width={150} />
                 <div>Epost: ahmed030503@gmail.com</div>

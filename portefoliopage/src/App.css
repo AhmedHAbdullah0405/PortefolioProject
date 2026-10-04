@@ -1,6 +1,6 @@
 body {
-    background-color: black;
-    color: green;
+    background-color: rgb(250, 231, 197);
+    color: rgb(54, 87, 59);
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -9,23 +9,79 @@ body {
     text-align: center;
 }
 
-.card{
+#summary{
+    position: relative;
+    font-size: larger;
     border-style: solid;
+    border-radius: 30px;
+    width: 40%;
+    padding: 20px;
+}
+
+#cardTitle{
+    position: relative;
+    left: 68%;
+    bottom: 275px;
+}
+
+.card{
+    position: relative;
+    left: 68%;
+    bottom: 285px;
+    border-style: solid;
+    border-radius: 30px;
     margin-right: auto;
-    width: 400px;
+    width: 30%;
     padding-bottom: 25px;
     padding-left: 25px;
     padding-top: 10px;
 }
 
-#summary{
-    font-size: larger;
+#education{
+    position: relative;
+    top: 80%;
     border-style: solid;
-    padding: 20px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.educationContainer{
+    position: relative;
+    bottom: 275px;
+}
+
+#workExperienceTitle{
+    position: relative;
+    bottom: 275px;
+}
+
+.workExperience{
+    position: relative;
+    bottom: 275px;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+#projects{
+    border-style: solid;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.projectContainer{
+    position: relative;
+    bottom: 275px;
+}
+
+.dataCapabilitiesContainer{
+    position: relative;
+    bottom: 275px;
 }
 
 #backend{
     border-style: solid;
+    border-radius: 30px;
     display: flex;
     padding: 20px;
     width: 97%;
@@ -40,12 +96,13 @@ body {
 .backend_img{
     display: flex;
     justify-content: space-between;
-    width: 85%;
+    width: 80%;
     height: 90%;
 }
 
 #security{
     border-style: solid;
+    border-radius: 30px;
     display: flex;
     padding: 20px;
     width: 97%;
@@ -60,11 +117,11 @@ body {
 
 .security_img{
     position: relative;
-    display: inline-block;
-    vertical-align: middle;
-    width: 85%;
-    height: 90%;
-    bottom: 3%;
+    top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 40%;
 }
 
 .security_img img{
@@ -73,6 +130,7 @@ body {
 
 #frontend{
     border-style: solid;
+    border-radius: 30px;
     display: flex;
     padding: 20px;
     width: 97%;
@@ -85,6 +143,8 @@ body {
 }
 
 .frontend_img{
+    position: relative;
+    top: 30px;
     display: flex;
     justify-content: space-between;
     width: 85%;
@@ -93,6 +153,7 @@ body {
 
 #gamedev{
     border-style: solid;
+    border-radius: 30px;
     display: flex;
     padding: 20px;
     width: 97%;
@@ -106,6 +167,7 @@ body {
 
 .gamedev_img{
     position: relative;
+    top: 30px;
     display: flex;
     justify-content: space-between;
     width: 60%;
@@ -115,6 +177,7 @@ body {
 
 #IoT{
     border-style: solid;
+    border-radius: 30px;
     display: flex;
     padding: 20px;
     width: 97%;
@@ -131,11 +194,12 @@ body {
     display: flex;
     width: 60%;
     height: 90%;
-    left: 35%;
+    left: 38%;
 }
 
 #UI{
     border-style: solid;
+    border-radius: 30px;
     display: flex;
     vertical-align: middle;
     padding: 20px;
@@ -151,13 +215,12 @@ body {
 
 .UI_img{
     position: relative;
-    display: inline-block;
-    vertical-align: middle;
+    top: 10px;
+    display: flex;
+    justify-content: space-between;
     width: 85%;
     height: 90%;
-    left: 5%;
-    bottom: 20%;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 
 .UI_img img{
@@ -166,6 +229,7 @@ body {
 
 #AI{
     border-style: solid;
+    border-radius: 30px;
     display: flex;
     padding: 20px;
     width: 97%;
@@ -179,26 +243,12 @@ body {
 
 .AI_img{
     position: relative;
+    border-radius: 30px;
     display: flex;
     justify-content: space-between;
     width: 60%;
     height: 90%;
     left: 15%;
-}
-
-#education{
-    border-style: solid;
-    padding: 10px;
-}
-
-#projects{
-    border-style: solid;
-    padding: 10px ;
-}
-
-#workExperience{
-    border-style: solid;
-    padding: 10px;
 }
 
 .buttonStyle{

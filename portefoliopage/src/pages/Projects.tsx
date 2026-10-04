@@ -5,7 +5,8 @@ export const projects = () => {
 
     return(
         <>
-            <h2>Prosjekter/Selvstudie</h2>
+            <div className="projectContainer">
+                <h1>Prosjekter/Selvstudie</h1>
                 <div id="projects">
                     <h3>Pentest mot eksamens VM 30.03/26 - 30.05/26</h3>
                     <p>    
@@ -38,6 +39,9 @@ export const projects = () => {
 
                 </div>
         
+
+            </div>
+            
         </>
     )
 

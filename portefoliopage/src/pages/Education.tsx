@@ -6,18 +6,21 @@ function education(){
 
     return(
         <>
-        <h2>Utdanning</h2>
-            <div id="education">
-                <h3>Bachelor i Cybersikkerhet			Høyskolen Kristiania	08.22 - 06.25</h3>
+            <div className="educationContainer">
+                <h1>Utdanning</h1>
+                <div id="education">
+                    <h3>Bachelor i Cybersikkerhet			Høyskolen Kristiania	08.22 - 06.25</h3>
 
-                <button className="buttonStyle" onClick={() => 
-                    downloadEducationPDF(educationReference, "Vitnemål Bachelor Cybersikkerhet HK.pdf")}>
-                    Download my cybersecurity diploma
-                </button>
+                    <button className="buttonStyle" onClick={() => 
+                        downloadEducationPDF(educationReference, "Vitnemål Bachelor Cybersikkerhet HK.pdf")}>
+                        Download my cybersecurity diploma
+                    </button>
 
-                <h3>Studiespesialisering				Fyrstikkalleen Skole		08.19 - 06.22</h3>
-                
-                <h3>Ungdomsskole				Apaløkka Skole		08.16 - 06.19</h3>
+                    <h3>Studiespesialisering				Fyrstikkalleen Skole		08.19 - 06.22</h3>
+                    
+                    <h3>Ungdomsskole				Apaløkka Skole		08.16 - 06.19</h3>
+                </div>
+            
             </div>
             
         </>

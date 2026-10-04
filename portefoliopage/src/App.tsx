@@ -11,25 +11,19 @@ function App() {
   return (
 
     <>
-      <h1 id="pageTitle">Ahmed's Portefolio Page</h1>
+      <h1 id="pageTitle">Ahmed Hazhar Abdullah</h1>
 
-    
       <Summary />
       <br />
-      <DataCapabilities />
+      <ContactInfo />
       <br />
       <Education />
-      <br />
-      <Projects />
       <br /> <br />
       <WorkExperience />
       <br />
-      <ContactInfo />
-
-
-      
-
-
+      <Projects />
+      <br />
+      <DataCapabilities />
     </>
    
   )
