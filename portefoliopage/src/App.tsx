@@ -7,25 +7,26 @@ import WorkExperience from './pages/WorkExperience'
 import ContactInfo from './pages/ContactInfo'
 
 function App() {
-
   return (
 
     <>
-      <h1 id="pageTitle">Ahmed Hazhar Abdullah</h1>
+      
 
-      <Summary />
-      <br />
-      <ContactInfo />
+      <div className="layoutRow">
+        <Summary />
+        <br />
+        <ContactInfo />'
+      </div>
+      
       <br />
       <Education />
-      <br /> <br />
+      <br />
       <WorkExperience />
       <br />
       <Projects />
       <br />
       <DataCapabilities />
     </>
-   
   )
 }
 

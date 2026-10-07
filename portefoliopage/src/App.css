@@ -1,8 +1,6 @@
 body {
     background-color: rgb(250, 231, 197);
     color: rgb(54, 87, 59);
-    max-width: 100%;
-    overflow-x: hidden;
 }
 
 #pageTitle{
@@ -10,35 +8,30 @@ body {
 }
 
 #summary{
-    position: relative;
     font-size: larger;
     border-style: solid;
     border-radius: 30px;
-    width: 40%;
+    height: 40%;
     padding: 20px;
 }
 
-#cardTitle{
-    position: relative;
-    left: 68%;
-    bottom: 275px;
-}
-
 .card{
-    position: relative;
-    left: 68%;
-    bottom: 285px;
     border-style: solid;
     border-radius: 30px;
-    margin-right: auto;
-    width: 30%;
     padding-bottom: 25px;
     padding-left: 25px;
     padding-top: 10px;
+    width: 100%;
+}
+
+.layoutRow{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    width: 100%;
 }
 
 #education{
-    position: relative;
     top: 80%;
     border-style: solid;
     border-radius: 30px;
@@ -46,17 +39,14 @@ body {
 }
 
 .educationContainer{
-    position: relative;
     bottom: 275px;
 }
 
 #workExperienceTitle{
-    position: relative;
     bottom: 275px;
 }
 
 .workExperience{
-    position: relative;
     bottom: 275px;
     border-style: solid;
     border-radius: 30px;
@@ -70,12 +60,10 @@ body {
 }
 
 .projectContainer{
-    position: relative;
     bottom: 275px;
 }
 
 .dataCapabilitiesContainer{
-    position: relative;
     bottom: 275px;
 }
 
@@ -84,7 +72,7 @@ body {
     border-radius: 30px;
     display: flex;
     padding: 20px;
-    width: 97%;
+    width: 96%;
     height: 200px;
 }
 
@@ -94,6 +82,7 @@ body {
 }
 
 .backend_img{
+    position: relative;
     display: flex;
     justify-content: space-between;
     width: 80%;
@@ -105,7 +94,7 @@ body {
     border-radius: 30px;
     display: flex;
     padding: 20px;
-    width: 97%;
+    width: 96%;
     min-height: 200px;
     height: auto;
 }
@@ -133,7 +122,7 @@ body {
     border-radius: 30px;
     display: flex;
     padding: 20px;
-    width: 97%;
+    width: 96%;
     height: 200px;
 }
 
@@ -156,7 +145,7 @@ body {
     border-radius: 30px;
     display: flex;
     padding: 20px;
-    width: 97%;
+    width: 96%;
     height: 200px;
 }
 
@@ -180,7 +169,7 @@ body {
     border-radius: 30px;
     display: flex;
     padding: 20px;
-    width: 97%;
+    width: 96%;
     height: 200px;
 }
 
@@ -194,7 +183,7 @@ body {
     display: flex;
     width: 60%;
     height: 90%;
-    left: 38%;
+    left: 35%;
 }
 
 #UI{
@@ -203,9 +192,8 @@ body {
     display: flex;
     vertical-align: middle;
     padding: 20px;
-    width: 97%;
+    width: 96%;
     height: 200px;
-    height: auto;
 }
 
 #UITitle{
@@ -232,7 +220,7 @@ body {
     border-radius: 30px;
     display: flex;
     padding: 20px;
-    width: 97%;
+    width: 96%;
     height: 200px;
 }
 
