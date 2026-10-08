@@ -1,7 +1,12 @@
+import { downloadPDF } from "../hooks/downloadPDF"
+import pentestReport from "../letters/Portefolio Pentest Rapport BorisLockPicks.pdf"
+
 export const projects = () => {
     const handleNavigation = (url: string) => {
         window.open(url, '_blank')
     }
+
+    const downloadPentest = downloadPDF();
 
     return(
         <>
@@ -20,6 +25,7 @@ export const projects = () => {
                         fra “Kritisk” til “Informasjonell”
                     </p>
                     <button className="buttonStyle" onClick={() => handleNavigation("https://www.linkedin.com/in/ahmed-abdullah-a2b4b0278/details/projects/")}>Link til pentest rapporten i linkedin</button>
+                    <button className="buttonStyle" onClick={() => downloadPentest(pentestReport ,"Portefolio Pentest Rapport BorisLockPicks.pdf")}>Download the pentest report</button>
                     
             
                     <h3>GameStop Java prosjekt 16.03/26 - 27.03/26</h3> 
