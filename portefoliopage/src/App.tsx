@@ -15,7 +15,7 @@ function App() {
       <div className="layoutRow">
         <Summary />
         <br />
-        <ContactInfo />'
+        <ContactInfo />
       </div>
       
       <br />

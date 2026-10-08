@@ -21,10 +21,10 @@ function workExperience() {
     return (
         <>
 
-            <h1 id='workExperienceTitle'>Tidligere erfaringer</h1>
+            
 
             <div className="workExperience">
-                
+                <h1>Tidligere erfaringer</h1>
                 <h3>Postbud</h3> Posten Røa Distribusjon &ensp; 29.09/25 - d.d <br />
                 Distribusjon av pakker
                 for posten Røa

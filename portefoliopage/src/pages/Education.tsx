@@ -7,8 +7,8 @@ function education(){
     return(
         <>
             <div className="educationContainer">
-                <h1>Utdanning</h1>
                 <div id="education">
+                    <h1>Utdanning</h1>
                     <h3>Bachelor i Cybersikkerhet			Høyskolen Kristiania	08.22 - 06.25</h3>
 
                     <button className="buttonStyle" onClick={() => 

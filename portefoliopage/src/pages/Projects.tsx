@@ -11,8 +11,8 @@ export const projects = () => {
     return(
         <>
             <div className="projectContainer">
-                <h1>Prosjekter/Selvstudie</h1>
                 <div id="projects">
+                    <h1>Prosjekter/Selvstudie</h1>
                     <h3>Pentest mot eksamens VM 30.03/26 - 30.05/26</h3>
                     <p>    
                         Utførte penetrasjonstest mot eksamen
