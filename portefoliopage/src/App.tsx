@@ -8,10 +8,7 @@ import ContactInfo from './pages/ContactInfo'
 
 function App() {
   return (
-
     <>
-      
-
       <div className="layoutRow">
         <Summary />
         <br />

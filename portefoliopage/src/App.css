@@ -31,14 +31,11 @@ body {
     width: 100%;
 }
 
-#education{
+.educationContainer{
     top: 80%;
     border-style: solid;
     border-radius: 30px;
     padding: 10px;
-}
-
-.educationContainer{
     bottom: 275px;
 }
 
@@ -49,13 +46,10 @@ body {
     padding: 10px;
 }
 
-#projects{
+.projectContainer{
     border-style: solid;
     border-radius: 30px;
     padding: 10px;
-}
-
-.projectContainer{
     bottom: 275px;
 }
 

@@ -11,8 +11,7 @@ export const projects = () => {
     return(
         <>
             <div className="projectContainer">
-                <div id="projects">
-                    <h1>Prosjekter/Selvstudie</h1>
+                <h1>Prosjekter/Selvstudie</h1>
                     <h3>Pentest mot eksamens VM 30.03/26 - 30.05/26</h3>
                     <p>    
                         Utførte penetrasjonstest mot eksamen
@@ -42,10 +41,7 @@ export const projects = () => {
 
                     </p>
                     <button className="buttonStyle" onClick={() => handleNavigation("https://github.com/AhmedHAbdullah0405/JavaMySQLProject")}>Link til source code for prosjektet i Github</button>
-
-                </div>
-        
-
+            
             </div>
             
         </>
