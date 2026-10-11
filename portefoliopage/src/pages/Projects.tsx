@@ -24,6 +24,9 @@ export const projects = () => {
                         fra “Kritisk” til “Informasjonell”
                     </p>
                     <button className="buttonStyle" onClick={() => handleNavigation("https://www.linkedin.com/in/ahmed-abdullah-a2b4b0278/details/projects/")}>Link til pentest rapporten i linkedin</button>
+
+                    <p>Dersom hyperlenken ikke fungerer eller linkedin har presentasjonsfeil i rapporten når en sjekker på den, så kan en alternativt laste ned rapporten her:</p>
+
                     <button className="buttonStyle" onClick={() => downloadPentest(pentestReport ,"Portefolio Pentest Rapport BorisLockPicks.pdf")}>Download the pentest report</button>
                     
             
