@@ -16,13 +16,15 @@ function App() {
       </div>
       
       <br />
-      <Education />
-      <br />
-      <WorkExperience />
-      <br />
       <Projects />
       <br />
       <DataCapabilities />
+      <br />
+      <WorkExperience />
+      <br />
+      <Education />
+      <br />
+    
     </>
   )
 }
