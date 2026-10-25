@@ -3,16 +3,17 @@ body {
     color: rgb(54, 87, 59);
 }
 
-#pageTitle{
-    text-align: center;
-}
-
 #summary{
     font-size: larger;
     border-style: solid;
     border-radius: 30px;
     height: 40%;
     padding: 20px;
+}
+
+#summaryTitle {
+    position: relative;
+    bottom: 20px;
 }
 
 .card{
