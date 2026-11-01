@@ -231,12 +231,12 @@ body {
 }
 
 .buttonStyle{
-    background-color: black;
-    color: white;
+    background-color: rgb(54, 87, 59);
+    color: rgb(250, 231, 197);
     transition: all 0.2s ease-in-out;
 }
 
 .buttonStyle:hover{
-    background-color: green;
-    color: black;
+    background-color: rgb(250, 231, 197);
+    color: rgb(54, 87, 59);
 }
